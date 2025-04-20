@@ -113,38 +113,10 @@ https://github.com/alextreseder/picoEDM
 </br>
 
 # Legal notes
-
     The author of this project is in no way responsible for whatever people do with it.
     No warranty. 
-
-
 </br>
 </br>
-
-# Credits to whom credits belong
-
-    Thanks for the support and help to keep the project going.
-
-    @ Tanatara
-    @ 8kate
-    @ Ethan Hall
-    @ Esteban Algar
-    @ 666
-    @ td1640
-    @ Nikolay
-    @ MaIzOr
-    @ DANIEL COLOMBIA
-    @ charlatanshost
-    @ tommygun
-    @ renyklever
-    @ Zenitheus
-    @ gerritv
-    @ cnc
-    @ Shrawan Khatri
-    @ Alex Treseder
-    @ VB
-
-
 
 # Responsible for the content provided
 
