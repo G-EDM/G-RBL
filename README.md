@@ -23,19 +23,19 @@ gedm-support@proton.me
 
 </br>
 </br>
-<img src="./images/g-rbl_1">
+<img src="./images/g-rbl_1.png">
 </br>
-<img src="./images/g-rbl_2">
+<img src="./images/g-rbl_2.png">
 </br>
-<img src="./images/g-rbl_3">
+<img src="./images/g-rbl_3.png">
 </br>
-<img src="./images/g-rbl_4">
+<img src="./images/g-rbl_4.png">
 </br>
-<img src="./images/g-rbl_5">
+<img src="./images/g-rbl_5.png">
 </br>
-<img src="./images/g-rbl_6">
+<img src="./images/g-rbl_6.png">
 </br>
-<img src="./images/g-rbl_7">
+<img src="./images/g-rbl_7.png">
 </br>
 
 # G-RBL
