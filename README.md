@@ -4,6 +4,13 @@ gedm-support@proton.me
 
 </br>
 </br>
+
+<img src="./images/gedmbanner.jpg">
+
+</br>
+</br>
+
+
 * Bugs fixed
   - changing steps per mm via ui was bricked - fixed (5.3.2025)
 </br>
