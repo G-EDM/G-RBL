@@ -129,6 +129,7 @@ https://github.com/alextreseder/picoEDM
 
     * You want to donate something to support the project? 
     * Paypal: paypal.me/gedmdev
+    * Bitcoin: bc1qkz8vwrd3pupewdtyg09qj9nv249vlgdy4ffhyv
 
 </br>
 </br>
