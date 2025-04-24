@@ -1,3 +1,9 @@
+@J.B.
+Your package arrived! If you see this please reach out to the new email shown below.
+</br>
+<img src="https://cdn.hackaday.io/images/9929951745493435379.jpg">
+</br></br>
+
 # Emergency help line - A pizza per call
 gedm-support@proton.me
 
