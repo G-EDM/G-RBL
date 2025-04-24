@@ -34,10 +34,6 @@ gedm-support@proton.me
 </br>
 <img src="./images/g-rbl_2.png">
 </br>
-<img src="./images/g-rbl_3.png">
-</br>
-<img src="./images/g-rbl_4.png">
-</br>
 <img src="./images/g-rbl_5.png">
 </br>
 <img src="./images/g-rbl_6.png">
