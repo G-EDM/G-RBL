@@ -59,6 +59,7 @@ gedm-support@proton.me
     Jumper J1 needs to be bridged with a little solder. If J1 is not bridged the display is set for 5v operation. The ESP32 operates at 3.3v levels.
     It can fail to write to SD card if J1 is not bridged. Never connect the display to 5v arduino stuff after J1 is bridged.
 </br>
+</br>
 <img src="./images/ili.jpg">
 </br>
 </br>
