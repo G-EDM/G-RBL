@@ -90,9 +90,15 @@ Also the router used needs a very high step resolution. 3200 steps per mm seems 
 
 
 
-# Factory reset after initial install and on updates is recommended
+# Factory reset everything after initial install and on updates
 
-After the machine receives an update it is good to factory reset everything. Insert an SD card and open the SD menu. Press the last tab and touch the factory reset button. This deletes the NVS key value store used to store the settings from the last session.
+After the machine receives an update it is good to factory reset everything. 
+Insert an SD card and open the SD menu. Press the last tab and touch the factory reset button. 
+This deletes the NVS key value store used to store the settings from the last session.
+
+A factory reset after the initial installation is required. After flashing the firmware on a fresh ESP32
+perform a factory reset to write the default params to the NVS storage. If the XYZ positions show as -1 this is due an 
+empty NVS storage.
 
 
 </br>
