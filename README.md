@@ -108,11 +108,16 @@ empty NVS storage.
 
 The new code has a different configuration for the voltage feedback (vFd) short circuit threshold. 
 The new default vFd should be almost 4000 @ the max possible voltage. Set the DPM/DPH to the max voltage. if the DPH is used with the 0-80V PSU something around 80V is the max possible. With the DPM it is 60V. Then turn the motionswitch to OFF and press the start button on the display. This will enable the scope. Ensure that the DPM/DPH is also turned on and adjust the Poti on the pulseboard until the reading below "vFd" shows almost 4000. It should never go above 4000.
-
+</br>
 It is very important to have the vFd set to a low voltage feedback before ever connecting the JST bridge to the sensorcircuit!
+</br>
+</br>
+Once the vFd feedback is set it should look like this on the scope with the maximum input voltage turned on:
+</br>
+<img width="500" src="./images/vfd.jpg">
+</br></br>
 
-</br>
-</br>
+
 
 # Hidden features
 
