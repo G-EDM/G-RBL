@@ -112,8 +112,12 @@ The new default vFd should be almost 4000 @ the max possible voltage. Set the DP
 It is very important to have the vFd set to a low voltage feedback before ever connecting the JST bridge to the sensorcircuit!
 </br>
 </br>
-Once the vFd feedback is set it should look like this on the scope with the maximum input voltage turned on:
-</br>
+Once the vFd feedback is set it should look like this on the scope with the maximum input voltage turned on. 
+To activate the scope turn the motionswitch to OFF, enable the DPM/DPH with the max voltage (max 85v), press the start button on the display.
+Now the scope is active and PWM enabled too but with the motionswitch OFF it will not start any process.
+Almost 4000 but no spikes above 4000 at the vFd reading.
+If the value is >4000 or worse stuck at 4095 turn everything off, buy two pizzas and contact the emergency hotline.
+</br></br>
 <img width="500" src="./images/vfd.jpg">
 </br></br>
 
