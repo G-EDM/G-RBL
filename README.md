@@ -1,3 +1,10 @@
+# Updates
+    Steps per mm setting for the wire feeder stepper
+    Buttons to move the wire back and forward manually
+    Wire feeder stepper is now controlled via mm/min instead of RPM
+</br>
+</br>
+
 @J.B.
 Your package arrived! Made me smile. If you see this please reach out to the new email shown below.
 </br>
