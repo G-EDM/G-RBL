@@ -1,3 +1,11 @@
+# Warning
+It is possible that homing on this version does not work correct.
+I removed a lot of stuff and it lookes like I also removed the homing pulloff distance
+from the homing routines by accident. Already working on it but need to wait
+until my own router is running again to test it before uploading the code.
+Homing is not needed anyway.
+</br></br>
+
 @J.B.
 Your package arrived! Made me smile. If you see this please reach out to the new email shown below.
 </br>
