@@ -21,7 +21,7 @@ gedm-support@proton.me
   - Steps per mm setting for the wire feeder stepper
   - Buttons to move the wire back and forward manually
   - Wire feeder stepper is now controlled via mm/min instead of RPM
-  - NVS storage resets automatically after a firmware update
+  - NVS storage resets automatically after a firmware update via SD card
   
 </br>
 </br>
