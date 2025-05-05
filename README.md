@@ -1,4 +1,4 @@
-# Warning
+# Homing issues possible
 It is possible that homing on this version does not work correct.
 I removed a lot of stuff and it lookes like I also removed the homing pulloff distance
 from the homing routines by accident. Already working on it but need to wait
