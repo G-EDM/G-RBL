@@ -138,6 +138,52 @@ If the value is >4000 or worse stuck at 4095 turn everything off, buy two pizzas
 </br></br>
 
 
+# FAQs
+
+1. Machine doesn't move but everything looks good
+
+   If the process starts but the machine does not move at all it is mostly related to a wrong vFd setting.
+   The pulseboard provides the voltage Feedback (vFd) in an inverted way: No load / no voltage drop provides a high reading.
+   If the current exceeds the settings on the DPM/DPH the voltage starts to drop (the goal is to avoid voltage drops and consider
+   every voltage drop a short circuit). Increasing the current on the DPM will make the voltage drop later while lower current settings will
+   result in a faster voltage drop.
+   In the settings menu is one parameter called vDrop Threshold. If the vFd value shown on the scope drops below this value it is considered
+   a hard short circuit. If this value is larger then the vFd value without load the machine will not move. This threshold should be around 200-300 lower
+   then the vFd value without load. Noise in the signal should not make vFd drop below this value. 200 difference is normally save.
+   There are different thresholds for probing in the menu. probing uses a smaller voltage and therefore the generated vFd is lower then at full
+   voltage.
+
+2. What are the most important paramaters?
+
+   Setpoint MIN:
+       The higher this value is the more aggressive it will move forward
+
+   Setpoint MAX:
+       This one is almost not needed anymore. The average peaks shown on the scope should not be higher then that.
+       Can be set high enough to not be triggered at all. As said it is not needed anymore but may trigger some savety stuff if too low.
+   
+   PWM Duty:
+       A higher duty will generate a more powerfull discharge and thus drop the voltage faster.
+       The duty needs to be high enough to create a sharp voltage drop on short circuits!
+
+   Current on the DPM/DPH:
+       Start with 0.4A to get a fast drop. Increase to 0.8A and once everything runs good try 1A.
+
+   Zeros in a row:
+       Defines the number of empty readings before the machine is allowed to move on. Higher values will make the process
+       progress more sensitive and save.
+
+3. What frequencies to use?
+
+    Currently it is best to stick with the 20khz. Using different frequencies requires knowledge about how the software works.
+    It is not as easy as just changing the frequency. The ESP32 does not allow synchronous ADC readings triggered by the Pulseoutput.
+    Therefore it is required to sample in continous mode and filter the results. The lower the frequency the larger the OFF time and the
+    empty readings wich needs to be adresses by adjusting some in depth paramaters.
+    I am working on it to make it easier. 
+
+   
+</br></br>
+
 # Hidden features
 
 1: If the screen is touched on bootup it will enforce a display recalibration. Once the display turns black it can be untouched and the calibration will start
