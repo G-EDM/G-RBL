@@ -1,5 +1,5 @@
 # Last update
-05.05.2025
+16.05.2025
 </br></br>
 
 @J.B.
@@ -21,6 +21,7 @@ gedm-support@proton.me
 </br>
 
 * Updates
+  - Update via SD card and creating the initial directory tree had issues - fixed 
   - Homing was bricked - fixed
   - Steps per mm setting for the wire feeder stepper
   - Buttons to move the wire back and forward manually
