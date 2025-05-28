@@ -27,7 +27,7 @@ gedm-support@proton.me
 
 
 * Bugs fixed
-  - Major bug fix: A mistake create an integer division that resultet in sudden direction changes. Very bad. Fixed (25.05.2025).
+  - Major bug fix: A mistake created an integer division that resultet in sudden direction changes. Very bad. Fixed (25.05.2025).
   - changing steps per mm via ui was bricked - fixed (5.3.2025)
 </br>
 </br>
