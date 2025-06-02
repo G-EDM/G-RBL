@@ -182,7 +182,15 @@ If the value is >4000 or worse stuck at 4095 turn everything off, buy two pizzas
     It is not as easy as just changing the frequency. The ESP32 does not allow synchronous ADC readings triggered by the Pulseoutput.
     Therefore it is required to sample in continous mode and filter the results. The lower the frequency the larger the OFF time and the
     empty readings wich needs to be adresses by adjusting some in depth paramaters.
-    I am working on it to make it easier. 
+    I am working on it to make it easier.
+
+4. Motionplan timeout
+
+   Have seen this error with a default DPM/DPH. By default those devices are set to 9600 baud. The communication on the ESP operates at 115200.
+   The baudrate of the DPM/DPH needs to be set to 115200. Press the set button until the menu opens and navigate to the entry "6-bd". Adjust this value
+   to 115,2 and confirm with ok. Now the communication should work.
+   Open the settings page and navigate to the DPM settings. Enable DPM communication. By default it is disabled.
+   It should now show the voltage and current. If it shows -1 values there is something wrong.
 
    
 </br></br>
