@@ -9,7 +9,10 @@ gedm-support@proton.me
 </br>
 </br>
 
-<img src="./images/gedmbanner.jpg">
+<img src="./images/gedmbanner.jpg"></br></br>
+
+[>>> Controlpanel EVOIII <<<](https://github.com/G-EDM/G-EDM-EVOIII-Controlpanel/tree/main) </br>
+<img src="https://raw.githubusercontent.com/G-EDM/G-EDM-EVOIII-Controlpanel/refs/heads/main/1.jpg" width="500">
 
 </br>
 </br>
