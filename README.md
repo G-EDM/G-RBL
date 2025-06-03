@@ -32,13 +32,6 @@ gedm-support@proton.me
 </br>
 </br>
 
-
-@J.B.
-Your package arrived! Made me smile. If you see this please reach out to the new email shown below.
-</br>
-<img height="300" src="https://cdn.hackaday.io/images/9929951745493435379.jpg">
-</br></br>
-
 # Reamer mode is not tested yet. Wire and sinker works.
 ```diff
 + 1. Validate homing routines, XYZ and all with Z enabled and disabled (z not tested but it should work)
