@@ -1,5 +1,5 @@
 # Last update
-25.05.2025
+05.06.2025
 </br></br>
 
 # Emergency help line - A pizza per call
@@ -30,6 +30,7 @@ gedm-support@proton.me
 
 
 * Bugs fixed
+  - Last update missed to update the main.cpp file that had also changes - fixed (06.05.2025)
   - Major bug fix: A mistake created an integer division that resultet in sudden direction changes. Very bad. Fixed (25.05.2025).
   - changing steps per mm via ui was bricked - fixed (5.3.2025)
 </br>
