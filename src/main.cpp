@@ -61,11 +61,8 @@ void start_services(){
 }
 
 void setup() {
-    if( ENABLE_SERIAL ){
-      Serial.begin(115200);
-      while(!Serial);
-      vTaskDelay(10);
-    }
+    Serial.begin( DPM_RXTX_SERIAL_COMMUNICATION_BAUD_RATE );
+    while(!Serial);
     disableCore0WDT();
     disableCore1WDT();
     grbl.grbl_init();
